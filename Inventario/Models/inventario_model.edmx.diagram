@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="34b2e732da8e44f9818fd8b4418612c9" Name="Diagram1" DisplayType="true" >
+        <EntityTypeShape EntityType="inventario_model.Usuario" Width="1.875" PointX="2" PointY="0.5" />
+        <EntityTypeShape EntityType="inventario_model.Producto" Width="2" PointX="8.625" PointY="0.5" />
+        <EntityTypeShape EntityType="inventario_model.Proveedor" Width="1.5" PointX="1.125" PointY="4.375" />
+        <EntityTypeShape EntityType="inventario_model.Pedido" Width="2.125" PointX="9.5" PointY="4.625" />
+        <EntityTypeShape EntityType="inventario_model.PedidoProducto" Width="1.75" PointX="5.5" PointY="3.125" />
+        <AssociationConnector Association="inventario_model.UsuarioPedido" />
+        <AssociationConnector Association="inventario_model.ProveedorPedido" />
+        <AssociationConnector Association="inventario_model.PedidoProducto1" />
+        <AssociationConnector Association="inventario_model.ProductoPedidoProducto" />
+        <AssociationConnector Association="inventario_model.PedidoPedidoProducto" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
